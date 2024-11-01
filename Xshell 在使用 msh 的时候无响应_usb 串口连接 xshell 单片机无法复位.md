@@ -6,6 +6,7 @@
 
 在[开源电子网论坛](http://www.openedv.com/forum.php?mod=viewthread&tid=71137)看到原子哥的解释：
 
+
 > 因为一键下载电路的问题。超级终端之类的软件，会控制 DTR/RTS，导致 B0 被拉高，然后你按复位，直接就进入 bootloader 模式了。。。。
 
 而 Xshell 中的这个流控又不知道怎么设置取消……  
