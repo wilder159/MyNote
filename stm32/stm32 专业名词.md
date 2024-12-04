@@ -4,3 +4,6 @@ EXTI（EXTernal interrupt/event）controller—外部中断/事件控制器
 NMI中断，不可屏蔽中断，产生这个中断的时候，表示系统发生了致命的错误。
 INTR可屏蔽中断。
 IRQ ( ReQuest)中断请求，又叫可屏蔽中断
+TXE（Transmission Empty）标志
+TC（Transmission Complete）
+XNE（Receive Not Empty）标志
