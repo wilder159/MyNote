@@ -1,12 +1,12 @@
 
-### _**问题描述**_
+### 0.1.1 _**问题描述**_
 
-#### _**环境**_
+#### 0.1.1.1 _**环境**_
 
 - **操作系统**：Windows 10/11
 - **终端**：Windows Terminal、Windows PowerShell
 
-#### _**问题**_
+#### 0.1.1.2 _**问题**_
 
 Windows[](https://so.csdn.net/so/search?q=&spm=1001.2101.3001.7020) 环境下执行
 
@@ -18,13 +18,13 @@ Error connecting to agent: No such file or directory
 
 ![[../_resources/未命名/103550ac374467bda017d9c86fe6b327_MD5.png]]
 
-### _**解决步骤**_
+### 0.1.2 _**解决步骤**_
 
-#### _**1. 启动 PowerShell**_
+#### 0.1.2.1 _**1. 启动 PowerShell**_
 
 管理员身份启动 「Windows PowerShell」。
 
-#### _**2. 检查服务**_
+#### 0.1.2.2 _**2. 检查服务**_
 
 运行以下指令，检查 `ssh-agent` 服务是否启动成功。
 
@@ -36,7 +36,7 @@ Status   Name               DisplayName
 ------   ----               -----------
 Stopped  ssh-agent          OpenSSH Authentication Agent
 
-#### _**3. 启动服务**_
+#### 0.1.2.3 _**3. 启动服务**_
 
 使用以下两条指令启动 ssh-agent 服务
 
@@ -47,7 +47,7 @@ Start-Service ssh-agent
 
 ![[../_resources/未命名/936c5852bd7ac9b2e80d38b65490bb75_MD5.png]]
 
-#### _**4. 检查**_
+#### 0.1.2.4 _**4. 检查**_
 
 运行以下指令查看 `ssh-agent` 已经添加的秘钥：
 
